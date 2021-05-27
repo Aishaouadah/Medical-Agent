@@ -14,7 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         try {
-/*
+
             Label label = new Label("Screen1");
             Button button1= new Button("option1");
             Button button2= new Button("option2");
@@ -26,7 +26,7 @@ public class Main extends Application {
             button3.addActionListener(e -> primaryStage.setScene(scene3));
             button4.addActionListener(e -> primaryStage.setScene(scene4));
             button5.addActionListener(e -> primaryStage.setScene(scene5));
-*/
+
             Parent root = FXMLLoader.load(getClass().getResource("fxml/Main.fxml"));
             Scene scene = new Scene(root);
             stage = primaryStage;
