@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SII/S1-2021/Complexité/TP/RapportTPs/RapportTP6/Fibonacci" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SII/S2-2021/Méta-heuristiques et algorithmes évolutionnaires/Projet/SAT-Solver" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/SII/S2-2021/Représentation des connaissances et raisonnement 1/TP/TP1/inference" vcs="Git" />
