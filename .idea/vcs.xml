@@ -2,14 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SII/S1-2021/Complexité/TP/RapportTPs/RapportTP6/Fibonacci" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SII/S2-2021/Méta-heuristiques et algorithmes évolutionnaires/Projet/SAT-Solver" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SII/S2-2021/Représentation des connaissances et raisonnement 1/TP/TP1/inference" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SII/S2-2021/Technologie des agents/MedicalAgent" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/SII/S2-2021/e-commerce/TP/AgentBehaviours" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/desktop/EVENTS/Github/Eisntein" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/desktop/HackTheBot/Dev" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/desktop/cours/projet compile/Nouveau dossier (2)" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/desktop/others/mlintroworkchoptodo" vcs="Git" />
   </component>
 </project>
