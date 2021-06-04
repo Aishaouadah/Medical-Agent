@@ -9,12 +9,11 @@ import javafx.stage.StageStyle;
 import java.awt.*;
 
 public class Main extends Application {
-    Scene scene1,scene2,scene3,scene4,scene5,main;
     private static Stage stage;
     @Override
     public void start(Stage primaryStage) throws Exception{
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("fxml/Main.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("fxml/Main1.fxml"));
             Scene scene = new Scene(root);
             stage = primaryStage;
             primaryStage.setTitle("Medical Agent ");
