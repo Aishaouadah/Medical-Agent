@@ -7,6 +7,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
+import static java.lang.System.exit;
+
 
 public class Controller {
     @FXML
@@ -35,9 +37,7 @@ public class Controller {
         stage.setScene(new Scene(root));
     }
     public void handleButtonExit() throws Exception{
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("sample/fxml/exit.fxml"));
-        Stage stage  = (Stage) exit.getScene().getWindow();
-        stage.setScene(new Scene(root));
+       exit(-1);
     }
 
 }
