@@ -68,7 +68,7 @@ public class Controller {
         stage.setScene(new Scene(root));
     }
     public void handleButtonOption25() throws Exception{
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("sample/fxml/Main2.fxml"));
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("sample/fxml/Main1.fxml"));
         Stage stage  = (Stage) option25.getScene().getWindow();
         stage.setScene(new Scene(root));
     }
