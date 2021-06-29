@@ -13,7 +13,7 @@ public class Main1 extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("fxml/Main1.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("fxml/medicalAgent/Main1.fxml"));
             Scene scene = new Scene(root);
             stage = primaryStage;
             primaryStage.setTitle("Medical & Cars Agent ");

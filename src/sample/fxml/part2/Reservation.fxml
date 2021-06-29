@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller3">
+    <children>
+        <VBox prefHeight="572.0" prefWidth="259.0" style="-fx-background-color: #116530;">
+            <children>
+                <Pane prefHeight="141.0" prefWidth="259.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="9.0" layoutX="75.0" layoutY="57.0" prefHeight="46.0" prefWidth="174.0" text="Travel Agent" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font size="26.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="76.0" fitWidth="60.0" layoutX="14.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/Travel/a9.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Button fx:id="option1" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonKnowledgeBase" prefHeight="53.0" prefWidth="265.0" style="-fx-background-color: #18A558;" text="Knowledge base" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/Travel/a17.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="option2" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonReservation" prefHeight="53.0" prefWidth="262.0" style="-fx-background-color: #18A558;" text="Reservation" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/Travel/a16.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="option3" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonAgentsCommunication" prefHeight="53.0" prefWidth="264.0" style="-fx-background-color: #18A558;" text="Agent's communication" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/Travel/a20.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="option4" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonSwitchMedical" prefHeight="53.0" prefWidth="264.0" style="-fx-background-color: #18A558;" text="switch to Medical Agent" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/5x/asset10.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+                </Button>
+            <Button fx:id="option5" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonSwitchCars" prefHeight="53.0" prefWidth="264.0" style="-fx-background-color: #18A558;" text="switch to Cars Agent" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/5xx/Asset5.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+                <Button fx:id="exit" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonExit" prefHeight="53.0" prefWidth="264.0" style="-fx-background-color: #18A558;" text="Exit" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/5x/asset3.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+                </Button>
+            </children></VBox>
+        <Pane layoutX="280.0" layoutY="14.0" prefHeight="542.0" prefWidth="560.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="71.0" layoutY="14.0" prefHeight="43.0" prefWidth="419.0" text="Travel Agent : Reservation " textAlignment="CENTER" textFill="#116530" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Button layoutX="470.0" layoutY="478.0" mnemonicParsing="false" text="Validate">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="34.0" layoutY="83.0" text="Last Name:">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="125.0" text="First Name:">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="151.0" layoutY="76.0" />
+            <TextField layoutX="151.0" layoutY="118.0" />
+            <Label layoutX="34.0" layoutY="305.0" text="Destination:  ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="151.0" layoutY="256.0" prefWidth="150.0" />
+            <ChoiceBox layoutX="151.0" layoutY="302.0" prefWidth="150.0" />
+            <Label layoutX="34.0" layoutY="359.0" text="Departure date:">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label layoutX="34.0" layoutY="406.0" text="Arrival date:">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <DatePicker layoutX="142.0" layoutY="356.0" />
+            <DatePicker layoutX="142.0" layoutY="403.0" />
+            <Label layoutX="34.0" layoutY="259.0" text="Departure:">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="174.0" text="Other Persons:" />
+            <Label layoutX="118.0" layoutY="174.0" text="Adults:" />
+            <Spinner layoutX="164.0" layoutY="170.0" prefHeight="17.0" prefWidth="60.0" />
+            <Label layoutX="247.0" layoutY="174.0" text="7 &lt; Kids &lt;11" />
+            <Spinner layoutX="325.0" layoutY="170.0" prefHeight="17.0" prefWidth="60.0" />
+            <Label layoutX="398.0" layoutY="174.0" text="Kids &lt; 7" />
+            <Spinner layoutX="444.0" layoutY="170.0" prefHeight="17.0" prefWidth="60.0" />
+         </children></Pane>
+    </children>
+</AnchorPane>

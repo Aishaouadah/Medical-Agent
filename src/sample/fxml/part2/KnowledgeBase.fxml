@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller3">
+    <children>
+        <VBox prefHeight="572.0" prefWidth="259.0" style="-fx-background-color: #116530;">
+            <children>
+                <Pane prefHeight="141.0" prefWidth="259.0">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="9.0" layoutX="75.0" layoutY="57.0" prefHeight="46.0" prefWidth="174.0" text="Travel Agent" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font size="26.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="76.0" fitWidth="66.0" layoutX="14.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/Travel/a9.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Button fx:id="option1" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonKnowledgeBase" prefHeight="53.0" prefWidth="265.0" style="-fx-background-color: #18A558;" text="Knowledge base" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/Travel/a17.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+                </Button>
+                <Button fx:id="option2" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonReservation" prefHeight="53.0" prefWidth="262.0" style="-fx-background-color: #18A558;" text="Reservation" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/Travel/a16.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+                </Button>
+                <Button fx:id="option3" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonAgentsCommunication" prefHeight="53.0" prefWidth="264.0" style="-fx-background-color: #18A558;" text="Agent's communication" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/Travel/a20.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+                </Button>
+                <Button fx:id="option4" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonSwitchMedical" prefHeight="53.0" prefWidth="264.0" style="-fx-background-color: #18A558;" text="switch to Medical Agent" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/5x/asset1.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+                </Button>
+            <Button fx:id="option5" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonSwitchCars" prefHeight="53.0" prefWidth="264.0" style="-fx-background-color: #18A558;" text="switch to Cars Agent" textAlignment="CENTER" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/5xx/Asset5.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets left="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+                <Button fx:id="exit" alignment="BASELINE_LEFT" graphicTextGap="14.0" mnemonicParsing="false" onAction="#handleButtonExit" prefHeight="53.0" prefWidth="264.0" style="-fx-background-color: #18A558;" text="Exit" textFill="WHITE">
+                    <graphic>
+                        <ImageView fitHeight="45.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../images/5x/asset3.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets left="40.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+                </Button>
+            </children></VBox>
+      <Pane layoutX="353.0" layoutY="7.0" prefHeight="62.0" prefWidth="413.0" style="-fx-background-color: #116530;">
+         <children>
+            <Label alignment="CENTER" layoutY="7.0" prefHeight="46.0" prefWidth="413.0" text="Travel Agent : Knowledge Base" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="286.0" layoutY="82.0" prefHeight="291.0" prefWidth="547.0">
+         <children>
+            <TableView fx:id="CareRuleBase" layoutY="-1.0" prefHeight="294.0" prefWidth="548.0">
+               <columns>
+                  <TableColumn fx:id="Rule" prefWidth="112.0" text="Rule" />
+                  <TableColumn fx:id="Condition1" prefWidth="114.66665649414062" text="Agency" />
+                  <TableColumn fx:id="Condition3" minWidth="0.0" prefWidth="99.3333740234375" text="Départ" />
+                  <TableColumn fx:id="Condition4" minWidth="0.0" prefWidth="122.6666259765625" text="Arrivé" />
+                  <TableColumn fx:id="Condition2" minWidth="0.0" prefWidth="98.66671752929688" text="Condition2" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+      <Button layoutX="740.0" layoutY="492.0" mnemonicParsing="false" text="Button" />
+    </children>
+</AnchorPane>
