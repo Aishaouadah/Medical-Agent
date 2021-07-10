@@ -133,11 +133,11 @@
          <children>
             <TableView fx:id="CareRuleBase" layoutX="1.0" prefHeight="320.0" prefWidth="548.0">
                <columns>
-                  <TableColumn fx:id="Rule" prefWidth="112.0" text="Rule" />
-                  <TableColumn fx:id="Condition1" prefWidth="114.66665649414062" text="Condition1" />
-                  <TableColumn fx:id="Condition2" minWidth="0.0" prefWidth="98.66671752929688" text="Condition2" />
-                  <TableColumn fx:id="Condition3" minWidth="0.0" prefWidth="99.3333740234375" text="Condition3" />
-                  <TableColumn fx:id="Condition4" minWidth="0.0" prefWidth="122.6666259765625" text="Condition4" />
+                  <TableColumn fx:id="rule" prefWidth="112.0" text="Rule"  />
+                  <TableColumn fx:id="condition1" prefWidth="114.66665649414062" text="condition1" />
+                  <TableColumn fx:id="condition2" minWidth="0.0" prefWidth="98.66671752929688" text="condition2" />
+                  <TableColumn fx:id="condition3" minWidth="0.0" prefWidth="99.3333740234375" text="condition3" />
+                  <TableColumn fx:id="condition4" minWidth="0.0" prefWidth="122.6666259765625" text="condition4" />
                </columns>
             </TableView>
          </children></Pane>

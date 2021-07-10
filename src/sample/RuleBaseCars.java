@@ -1,27 +1,45 @@
 package sample;
 
+
+
 import java.util.LinkedList;
 
 public class RuleBaseCars {
-    /**Rules structure
-     * LinkedList
-     * Rule name -> variable name , 1 element
-     * 2 to n-1 elements->  Conditions
-     * n element -> result */
+    /**
+     * create  rule
+     * Attributes 4 conditions
+     * Rule name
+     * result of the rule
+     * create a constructur
+     * create the 9 rules
+     * add them to the observable list
+     * display data*/
 
-    String ruleName;
-    String condition1;
-    String condition2;
-    String condition3;
-    String condition4;
+    private String ruleName;
+    private String vehiculeType;
+    private String num_wheels;
+    private String motor;
+    private String size;
+    private String num_doors;
 
-public  RuleBaseCars(String ruleName,String condition1,String condition2,String condition3,String condition4){
-    this.ruleName=ruleName;
-    this.condition1=condition1;
-    this.condition1=condition2;
-    this.condition1=condition3;
-    this.condition1=condition4;
+
+//constructor
+public  RuleBaseCars(String ruleName,String vehiculeType,String num_wheels,String motor,String size , String num_doors){
+    this.ruleName= ruleName ;
+    this.vehiculeType= vehiculeType ;
+    this.num_wheels= num_wheels ;
+    this.motor=motor;
+    this.size= size;
+    this.num_doors= num_doors;
 }
+    public  RuleBaseCars(){
+        this.ruleName= "" ;
+        this.vehiculeType= "" ;
+        this.num_wheels= "" ;
+        this.motor="";
+        this.size= "";
+        this.num_doors= "";
+    }
     /*
     LinkedList<String> Bicycle = new LinkedList<>();
     LinkedList<String> Tricycle = new LinkedList<>();
@@ -71,78 +89,46 @@ public  RuleBaseCars(String ruleName,String condition1,String condition2,String 
     }
 
 */
-    public String CheckRule(LinkedList<String> Rule){
-        String Vehicule =null ;
-        if(Rule.get(1).equals("cycle"))
-        {
-            if(Rule.get(2).equals("2")) {
-                if(Rule.get(3).equals("no")) Vehicule ="Bicycle";
-                if(Rule.get(3).equals("yes")) Vehicule ="Motocycle";
-            }
-            if(Rule.get(2).equals("3")) {
-               if( Rule.get(3).equals("no")) Vehicule ="Tricycle";
-              }
-        }
-        if(Rule.get(1).equals("automobile")){
-            if(Rule.get(2).equals("medium")){
-                if(Rule.get(3).equals("4")) Vehicule ="Sedan";
-                if(Rule.get(3).equals("3")) Vehicule ="MiniVan";
-            }
-            if(Rule.get(2).equals("small")){
-                if(Rule.get(3).equals("2")) Vehicule ="Sport Car";
-            }
-            if(Rule.get(2).equals("large")){
-                if(Rule.get(3).equals("4")) Vehicule ="Sport Utility Vehicule";
-            }
 
-        }
-        if(Rule.get(2).equals("3") || Rule.get(2).equals("2") || Rule.get(2).equals("1") ) { Rule.set(1, "cycle");}
-        if (Rule.get(2).equals("4")) { Rule.set(1, "automobile"); }
+    /**
+     * condition 1 : vehiculeType
+     * condition 2 : num_wheels
+     * condition 3 : motor
+     * condition 4 : size
+     * condition 5 : num_doors
+     */
 
-        return Vehicule;
 
-    }
-    public void DisplayKnowledgeBase(){
-        //interface we hae table of 3 columns : rule /conditions /result
-    }
 
     public String getRuleName() {
-        return ruleName;
+        return   ruleName;
     }
-
     public void setRuleName(String ruleName) {
-        this.ruleName = ruleName;
+        this.ruleName=ruleName;
+    }
+    public String getVehiculeType() {
+        return   vehiculeType ;
+    }
+    public void setVehiculeType(String vehiculeType) { this.vehiculeType= vehiculeType; }
+    public String getNum_wheels() {
+        return num_wheels ;
+    }
+    public void setNum_wheels(String num_wheels) {
+        this.num_wheels= num_wheels;
+    }
+    public String getMotor() {
+        return motor ;
+    }
+    public void setMotor(String motor) { this.motor=motor;}
+    public String getSize() {
+        return  size ;
+    }
+    public void setSize(String size) {
+        this.size=size;
+    }
+    public String getNum_doors() { return  num_doors ; }
+    public void setNum_doors(String condition5) {
+        this.num_doors=num_doors;
     }
 
-    public String getCondition1() {
-        return condition1;
-    }
-
-    public void setCondition1(String condition1) {
-        this.condition1 = condition1;
-    }
-
-    public String getCondition2() {
-        return condition2;
-    }
-
-    public void setCondition2(String condition2) {
-        this.condition2 = condition2;
-    }
-
-    public String getCondition3() {
-        return condition3;
-    }
-
-    public void setCondition3(String condition3) {
-        this.condition3 = condition3;
-    }
-
-    public String getCondition4() {
-        return condition4;
-    }
-
-    public void setCondition4(String condition4) {
-        this.condition4 = condition4;
-    }
 }
