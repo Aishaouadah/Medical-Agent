@@ -7,5 +7,4 @@
 ✔Deuxième Partie : Implémentation d’un environnement de vente de billets d’avion à base d’agents cognitifs, sous forme d’un système expert et en utilisant la plateforme Jade.
  
 ![image3](/images/image3.JPG)
-![image4](/images/image4.JPG)
 
